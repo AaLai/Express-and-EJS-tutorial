@@ -24,6 +24,6 @@ routes(app);
 // ================================================================
 // start our server
 // ================================================================
-app.list(port, function() {
+app.listen(port, function() {
   console.log('server listening on port ' + port + '...');
 });
